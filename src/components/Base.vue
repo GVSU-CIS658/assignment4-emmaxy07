@@ -3,7 +3,7 @@
 </template>
 
 <script setup lang="ts">
-import type { BaseBeverageType } from "../stores/beverage";
+import type { BaseBeverageType } from "../types/beverage";
 
 defineProps<{
   base: BaseBeverageType;

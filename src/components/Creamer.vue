@@ -5,7 +5,7 @@
 </template>
 
 <script setup lang="ts">
-import type { CreamerType } from "../stores/beverage";
+import type { CreamerType } from "../types/beverage";
 
 defineProps<{
   creamer: CreamerType;
