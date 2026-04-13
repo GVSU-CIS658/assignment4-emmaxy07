@@ -5,10 +5,14 @@ import vue from "@vitejs/plugin-vue";
 export default defineConfig({
   plugins: [vue()],
   base: "/assignment4-emmaxy07/",
+  build: {
+    outDir: "docs",
+    emptyOutDir: true,
+  },
   css: {
     preprocessorOptions: {
       scss: {
-        api: "modern-compiler", // <- use modern Dart Sass API
+        api: "modern-compiler",
       },
     },
   },
